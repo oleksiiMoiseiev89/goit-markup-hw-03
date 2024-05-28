@@ -54,12 +54,6 @@ li {
   background-color: #fff;
   border-bottom: 1px solid #e7e9fc;
 }
-.header-inner {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 24px 0;
-}
 
 .logo {
   font-family: "Raleway", sans-serif;
@@ -102,11 +96,13 @@ li {
 }
 
 .nav-link {
-  padding: 24px 0 24px;
   margin-right: 40px;
 }
 .nav-link:last-child {
   margin-right: 0;
+}
+.nav-info {
+  padding: 24px 0 24px;
 }
 
 .nav-info:focus {
@@ -216,8 +212,7 @@ li {
 }
 
 .visually-hidden {
-  position: fixed;
-  transform: scale(0);
+  visibility: hidden;
 }
 
 .methods-inner {
