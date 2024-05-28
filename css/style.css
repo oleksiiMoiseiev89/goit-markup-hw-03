@@ -78,6 +78,8 @@ li {
 
 .logo-foot {
   color: #f4f4fd;
+}
+.logo__footer {
   display: inline-block;
   margin-bottom: 16px;
 }
@@ -126,6 +128,7 @@ li {
 }
 .contacts-block {
   display: flex;
+  gap: 40px;
 }
 
 .contacts {
@@ -133,12 +136,7 @@ li {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
-  padding: 0 40px;
   color: #434455;
-}
-
-.contacts:last-child {
-  padding-right: 0;
 }
 
 .contacts:hover {
@@ -218,7 +216,8 @@ li {
 }
 
 .visually-hidden {
-  display: none;
+  position: fixed;
+  transform: scale(0);
 }
 
 .methods-inner {
@@ -295,7 +294,7 @@ li {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .team-prof {
@@ -352,7 +351,6 @@ li {
 }
 
 .footer-text {
-  padding-top: 16px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
