@@ -82,7 +82,7 @@ li {
   display: flex;
   align-items: center;
   font-weight: 500;
-  padding: 0;
+  padding: 24px 0 24px;
 }
 
 .nav-inner {
@@ -211,14 +211,18 @@ li {
   margin-bottom: 72px;
 }
 
-.visually-hidden {
-  visibility: hidden;
-}
-
 .methods-inner {
   height: auto;
   display: flex;
   justify-content: center;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
 }
 
 .methods-item {
